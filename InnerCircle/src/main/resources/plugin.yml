@@ -1,0 +1,21 @@
+name: InnerCircle
+version: '${project.version}'
+main: innercircle.innercircle.InnerCircle
+api-version: 1.17
+authors: [ 2Lynk ]
+description: Plugin adds some small features to the InnerCircle minecraft server (papermc)
+website:
+  Nog niet aanwezig
+commands:
+  welcome:
+    description: Show the welcome message
+    usage: /<command>
+    aliases: welcome
+  heal:
+    description: A heal command, heals you to full health
+    usage: /<command>
+    aliases: heal
+  feedme:
+    description: A feed command, fills you with food
+    usage: /<command>
+    aliases: feedme
