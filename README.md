@@ -9,8 +9,12 @@ This is a plugin for Minecraft servers running [PaperMC](https://papermc.io/)
 ## Features
 - New welcome message
 - New commands
-  - /postloc
-    - Posts your location the chat   
+  - /Welcome
+    - Posts your location the chat
+  - /heal
+    - Heals a player (admin only)
+  - /feed
+    - Sets the players food level to full       
 
 ## Installation:
 1. Download the latest release.
