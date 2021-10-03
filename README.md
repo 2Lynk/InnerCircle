@@ -16,6 +16,9 @@ This is a plugin for Minecraft servers running [PaperMC](https://papermc.io/)
   - /feed
     - Sets the players food level to full       
 
+## Requirements
+A Minecraft server running [PaperMC](https://papermc.io/)
+
 ## Installation:
 1. Download the latest release.
 2. Put InnerCircle.jar in the plugins folder of your Minecraft server.
