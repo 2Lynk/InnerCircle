@@ -14,7 +14,9 @@ This is a plugin for Minecraft servers running [PaperMC](https://papermc.io/)
   - /heal
     - Heals a player (admin only)
   - /feed
-    - Sets the players food level to full       
+    - Sets the players food level to full    
+  - /postlocation
+    - Prints your location in chat    
 
 ## Requirements
 A Minecraft server running [PaperMC](https://papermc.io/)
