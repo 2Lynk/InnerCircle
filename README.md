@@ -18,7 +18,7 @@ This is a plugin for Minecraft servers running [PaperMC](https://papermc.io/)
 
 ## Installation:
 1. Download the latest release.
-2. Put InnerCircle.jar in the plugins folder of your PaperMC server.
+2. Put InnerCircle.jar in the plugins folder of your Minecraft server.
 
 
 ## Changelog
