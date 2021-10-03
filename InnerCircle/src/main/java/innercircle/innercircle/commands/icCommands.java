@@ -7,6 +7,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
+import static org.bukkit.Bukkit.getServer;
+
 public class icCommands implements CommandExecutor {
 
     @Override
@@ -36,6 +38,15 @@ public class icCommands implements CommandExecutor {
         if(command.getName().equalsIgnoreCase("feedme")){
             player.setFoodLevel(20);
             player.sendMessage("§9§o(!) You are well fed!");
+        }
+
+        // command: /postlocation
+        if(command.getName().equalsIgnoreCase("postlocation")){
+            int x = player.getLocation().getBlockX();
+            int y = player.getLocation().getBlockY();
+            int z = player.getLocation().getBlockZ();
+
+            getServer().broadcastMessage(player.getDisplayName() + "'s location is: X(" + String.valueOf(x) + "), Y(" +  String.valueOf(y) + "), Z(" +  String.valueOf(z) + ")");
         }
 
         return true;
