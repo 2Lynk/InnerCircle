@@ -5,7 +5,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import innercircle.innercircle.commands.icCommands;
 import innercircle.innercircle.events.icEvents;
 
-
 public final class InnerCircle extends JavaPlugin {
 
     @Override
@@ -17,6 +16,7 @@ public final class InnerCircle extends JavaPlugin {
         getCommand("welcome").setExecutor(new icCommands());
         getCommand("heal").setExecutor(new icCommands());
         getCommand("feedme").setExecutor(new icCommands());
+        getCommand("postlocation").setExecutor(new icCommands());
         // When all is done we print a message to the console
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[Inner Circle] Plugin enabled!");
     }
