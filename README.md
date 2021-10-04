@@ -30,6 +30,8 @@ A Minecraft server running [PaperMC](https://papermc.io/)
 
 Version: --- Description:
 
-0.1.0--------Created the plugin
+0.1--------Created the plugin
 
-1.1.0--------Removed "icCommands" class and created a separate class for each command
+1.1--------Removed "icCommands" class and created a separate class for each command
+
+1.2--------Added permissions to the plugin
