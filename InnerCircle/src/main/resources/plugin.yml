@@ -1,11 +1,18 @@
 name: InnerCircle
-version: 1.1
+version: 1.2
 main: innercircle.innercircle.InnerCircle
 api-version: 1.17
 authors: [ 2Lynk ]
 description: Plugin adds some small features to the InnerCircle minecraft server (papermc)
 website:
   Nog niet aanwezig
+permissions:
+  InnerCircle.default:
+    description: Everyone gets this permission by default
+    default: true
+  InnerCircle.admin:
+    description: Only aminds get this permission by default
+    default: op
 commands:
   welcome:
     description: Show the welcome message
@@ -15,6 +22,8 @@ commands:
     description: A heal command, heals you to full health
     usage: /<command>
     aliases: heal
+    permission: InnerCircle.admin
+    permission-message: You must be OP to execute this command
   feedme:
     description: A feed command, fills you with food
     usage: /<command>

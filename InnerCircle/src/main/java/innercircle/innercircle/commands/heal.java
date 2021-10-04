@@ -21,11 +21,12 @@ public class heal implements CommandExecutor {
         Player player = (Player) sender;
 
         // command: /heal
-        if(command.getName().equalsIgnoreCase("heal")){
+        if(command.getName().equalsIgnoreCase("heal") || player.isOp()){
             double maxHealth = player.getAttribute(Attribute.GENERIC_MAX_HEALTH).getDefaultValue();
             player.setHealth(maxHealth);
             player.sendMessage("§2§o(!) Healing!");
         }
+
 
         return true;
     }
