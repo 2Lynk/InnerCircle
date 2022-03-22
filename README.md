@@ -10,7 +10,7 @@ This is a plugin for Minecraft servers running [PaperMC](https://papermc.io/)
 - New welcome message
 - New commands
   - /Welcome
-    - Posts MOTD the chat
+    - Posts the welcome message to the chat
   - /heal
     - Heals a player (admin only)
   - /feed
@@ -35,3 +35,5 @@ Version: --- Description:
 1.1--------Removed "icCommands" class and created a separate class for each command
 
 1.2--------Added permissions to the plugin
+
+1.3--------Added the permission for /feedme to OP only.
