@@ -10,7 +10,7 @@ This is a plugin for Minecraft servers running [PaperMC](https://papermc.io/)
 - New welcome message
 - New commands
   - /Welcome
-    - Posts your location the chat
+    - Posts MOTD the chat
   - /heal
     - Heals a player (admin only)
   - /feed
